@@ -29,25 +29,25 @@ This project is a Node.js backend application for managing a menu, divided into 
 
 ### **1. Clone the Repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/SoftwareDeveloperYadavJi/HireingAssigmentGuestara
 ```
 
 ### **2. Install Dependencies**
 ```bash
-cd <project-directory>
+cd HireingAssigmentGuestara
 npm install
 ```
 
 ### **3. Configure Environment Variables**
 Create a `.env` file in the root of the project and configure the following variables:
 ```env
-PORT=5000
+PORT=3000
 MONGOURI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<database-name>
 ```
 
 ### **4. Start the Server**
 ```bash
-npm start
+npm run dtart
 ```
 
 ### **5. Test the APIs**
